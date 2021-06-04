@@ -1,0 +1,13 @@
+olga@VB:~$ pwd
+/home/olga
+olga@VB:~$ touch Skript.sh
+olga@VB:~$ nano Skript.sh
+                #!/bin/bush
+                cd TestFolder
+		mkdir papka1 papka2 papka3
+		cd papka1
+		touch mama.txt papa.txt vasy.txt Gri.json ba.json
+		mkdir leto more plyag
+		cd ..
+olga@VB:~$ chmod +x Skript.sh
+olga@VB:~$ ./Skript.sh
